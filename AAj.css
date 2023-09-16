@@ -1,0 +1,187 @@
+/*
+	AAj's style
+	LastModified: 2010.06.14
+*/
+
+body {
+	background-color: #FFFFE0;/*#F5FFFA;#FDF5E6;#FFF5EE;#eeeccc;*/
+	font-family: "Times New Roman", Dialog, Georgia, Times, serif;
+	font-size: 16px;
+}
+
+/*********** HEADING-ELEMENTS ***********************/
+p.h0 {
+	background-color: #00FFFF;/* Aqua */
+	border: 1px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 44px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 0 0 10px 0; /*top right bottom left*/
+	text-align: center;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 26px;
+	font-weight: bold;
+	color: #F0FFFF;
+	background-color: #0000FF; /* Blue; */
+	border: 1px solid #000000;
+	margin-left: 3px;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #F0FFFF;
+	background-color: #008000; /* Green; */
+	border: 1px solid #000000;
+	margin-left: 30px;
+}
+
+h3 {
+	background-color: #FFFF00; /* Yellow; */
+	border: 1px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 45px;
+}
+
+h4 {
+	background-color: #FFBB00; /* FF00FF-Magenta */
+	border: 1px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 60px;
+}
+
+h5 {
+	background-color: 	#FFC0CB;/* pink #FFA500; FFA500-Orange; */
+	border: 1px solid #000000;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 75px;
+}
+
+h6 {
+	background-color: #FF0000;/* Red */
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 90px;
+	/*text-align: center;*/
+}
+
+p.h7 {
+	background-color: #FF4400;/* Red */
+	border: 1px solid #000000;
+	color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 105px;
+	text-align: center;
+}
+
+/************ CONTENT-ELEMENTS ********************/
+
+p {
+	text-indent: -25px;
+	margin-left: 25px;
+}
+p.center {
+	text-align: center;
+}
+p.last {
+	font-size: 14px;
+	/*
+	border-top: 4px solid #000000;
+	margin-top: 20px;
+	padding: 3px 0 0 0; /*top right bottom left*/
+}
+
+table {
+	margin-left: 25px;
+}
+
+/************* INLINE text-content ***************************/
+/* a, dfn, br, b, span  */
+
+span.fLarge {
+	font-size: large;
+	font-weight: bold;
+}
+span.red {
+	color: #FF0000;/* Red */
+}
+span.u {
+	text-decoration: underline;
+}
+
+p > a.hide,
+h1 > a.hide,
+h2 > a.hide,
+h3 > a.hide,
+h4 > a.hide,
+h5 > a.hide,
+h6 > a.hide
+{
+	display: none;
+}
+
+p:hover  > a.hide,
+h1:hover  > a.hide,
+h2:hover  > a.hide,
+h3:hover  > a.hide,
+h4:hover  > a.hide,
+h5:hover  > a.hide,
+h6:hover  > a.hide
+{
+	display: inline;
+}
+
+a:link { color: #0000FF }
+a:visited { color: #0000FF }
+
+td.center {
+	text-align: center;
+}
+td.clrBgTurq {
+	background-color: #00FFFF;/* Turquoise */
+	text-align: center;
+}
+
+
+/********* INLINE elements to define sentents and its parts *********/
+
+dfn.sentence {
+	margin-left: 20px;
+}
+
+dfn.verb {
+	color: #FF0000;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+dfn.aSbj {
+	color: #006600;
+	font-weight: bold;
+}
+
+dfn.aObj {
+	/* color: #0000FF; */
+}
+

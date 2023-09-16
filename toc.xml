@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- use "dir::/title" for containers (directories) of html-files -->
+<!-- toc.xml on parent directory of HtmlMgr -->
+
+<trNode url="dir::/AAj-SITE">
+  <trNode display="y" title="HomePage" url="index.html"/>
+  <trNode url="dir::/SBC-THEORY">
+    <trNode title="SBConcept-Theory" url="sbcpt-theory.html"/>
+    <trNode title="The Main 59 sbcpts" url="sbcpt/sbcpt_59.html"/>
+    <trNode title="Misc sbcpts" url="sbcpt/sbcpt1.html"/>
+  </trNode>
+  <trNode url="dir::/HUMAN-LANGUAGE">
+    <trNode title="Human-Language" url="sbcpt/lango_ho.html"/>
+    <trNode title="English" url="sbcpt/lango_ho_eng.html"/>
+    <trNode title="Esperanto" url="sbcpt/lango_ho_epo.html"/>
+    <trNode title="Greek" url="sbcpt/lango_ho_eln.html"/>
+    <trNode title="Komo" url="sbcpt/lango_ho_kml.html"/>
+  </trNode>
+  <trNode title="KRS" url="sbcpt/krs.html"/>
+  <trNode title="SBConcept-System" url="sbcpt/sbcpt-system.html"/>
+  <trNode title="AAj" url="sbcpt/aaj-sbccs.html"/>
+  <trNode title="Site-Evolution" url="site-evolution.html"/>
+  <trNode title="Author" url="author.html"/>
+  <trNode title="All-files" url="all-files.html"/>
+  <trNode title="All-names" url="all-names.html"/>
+</trNode>
