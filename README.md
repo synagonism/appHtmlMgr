@@ -2,7 +2,7 @@
 
 HtmlMgr-2010.09.15-00.02.03
 
-this repository contains the-LAST-VERSION of my HtmlMgr-app, a-java browser and wysiwyg Html editor (with minor updates to run today {2023-09-16}).
+this repository contains the-LAST-VERSION of my {2010} HtmlMgr-app, a-java browser and wysiwyg Html editor (with minor updates to run today {2023-09-16}).
 
 also contains the-documentation of my AAj-app written to run on HtmlMgr.
 
